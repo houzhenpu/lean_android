@@ -17,17 +17,25 @@
 
             <TextView
                 android:id="@+id/paint"
-                android:padding="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="10dp"
                 android:text="paint_高级应用渲染" />
 
             <TextView
                 android:id="@+id/paint_line"
-                android:padding="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="10dp"
                 android:text="paint_高级应用渲染线条" />
+
+            <TextView
+                android:id="@+id/XfermodeActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="图层混合模式" />
+
         </LinearLayout>
     </ScrollView>
 

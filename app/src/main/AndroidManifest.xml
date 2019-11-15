@@ -23,6 +23,9 @@
         <activity
             android:name=".paint.GradientLineViewActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".xfermode.XfermodeActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
     </application>
 
 </manifest>

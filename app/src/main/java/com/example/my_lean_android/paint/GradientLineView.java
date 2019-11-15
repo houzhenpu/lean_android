@@ -108,7 +108,7 @@ public class GradientLineView extends View {
         effects[6] = new SumPathEffect(effects[2], effects[4]);
 
         //将画布移动至（8，8）处开始绘制；
-        canvas.translate(8, 8);
+        canvas.translate(80, 8);
         for (int i = 0; i < effects.length; i++) {
             mPaint.setPathEffect(effects[i]);
             mPaint.setColor(colors[i]);
