@@ -41,7 +41,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="自定义像素适配" />
+                android:text="屏幕自定义像素适配" />
+
+            <TextView
+                android:id="@+id/screen_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="屏幕百分比适配" />
 
         </LinearLayout>
     </ScrollView>

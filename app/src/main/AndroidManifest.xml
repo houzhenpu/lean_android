@@ -29,6 +29,9 @@
         <activity
             android:name=".screen.MainPXActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".screen.precent.MainPercentActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
     </application>
 
 </manifest>
