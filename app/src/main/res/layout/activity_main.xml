@@ -36,6 +36,13 @@
                 android:padding="10dp"
                 android:text="图层混合模式" />
 
+            <TextView
+                android:id="@+id/ScreenAdapterLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="自定义像素适配" />
+
         </LinearLayout>
     </ScrollView>
 
