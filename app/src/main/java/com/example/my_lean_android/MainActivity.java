@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.my_lean_android.paint.GradientLineViewActivity;
 import com.example.my_lean_android.paint.GradientViewActivity;
 import com.example.my_lean_android.screen.MainPXActivity;
+import com.example.my_lean_android.screen.density.MainDensityActivity;
 import com.example.my_lean_android.screen.precent.MainPercentActivity;
 import com.example.my_lean_android.xfermode.XfermodeActivity;
 
@@ -31,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.screen_percent:
                 startActivity(new Intent(getBaseContext(), MainPercentActivity.class));
                 break;
+            case R.id.density:
+                startActivity(new Intent(getBaseContext(), MainDensityActivity.class));
+                break;
 
 
             default:
@@ -48,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.XfermodeActivity).setOnClickListener(onClickListener);
         findViewById(R.id.ScreenAdapterLayout).setOnClickListener(onClickListener);
         findViewById(R.id.screen_percent).setOnClickListener(onClickListener);
-
+        findViewById(R.id.density).setOnClickListener(onClickListener);
 
     }
 }
