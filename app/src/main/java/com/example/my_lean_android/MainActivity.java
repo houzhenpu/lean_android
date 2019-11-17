@@ -10,6 +10,7 @@ import com.example.my_lean_android.paint.GradientLineViewActivity;
 import com.example.my_lean_android.paint.GradientViewActivity;
 import com.example.my_lean_android.screen.MainPXActivity;
 import com.example.my_lean_android.screen.density.MainDensityActivity;
+import com.example.my_lean_android.screen.notchDisplay.NotchDisplayActivity;
 import com.example.my_lean_android.screen.precent.MainPercentActivity;
 import com.example.my_lean_android.xfermode.XfermodeActivity;
 
@@ -35,6 +36,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.density:
                 startActivity(new Intent(getBaseContext(), MainDensityActivity.class));
                 break;
+            case R.id.notch_density:
+                startActivity(new Intent(getBaseContext(), NotchDisplayActivity.class));
+                break;
 
 
             default:
@@ -53,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.ScreenAdapterLayout).setOnClickListener(onClickListener);
         findViewById(R.id.screen_percent).setOnClickListener(onClickListener);
         findViewById(R.id.density).setOnClickListener(onClickListener);
+        findViewById(R.id.notch_density).setOnClickListener(onClickListener);
 
     }
 }

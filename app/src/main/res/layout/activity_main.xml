@@ -57,6 +57,13 @@
                 android:padding="10dp"
                 android:text="自定义修改density适配" />
 
+            <TextView
+                android:id="@+id/notch_density"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="刘海屏适配" />
+
         </LinearLayout>
     </ScrollView>
 

@@ -39,6 +39,9 @@
         <activity
             android:name=".screen.density.SecondActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".screen.notchDisplay.NotchDisplayActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
     </application>
 
 </manifest>
